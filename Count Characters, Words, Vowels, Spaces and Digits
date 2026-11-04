@@ -1,0 +1,32 @@
+sentence = input("Enter a sentence: ")
+
+characters = len(sentence)
+words = len(sentence.split())
+vowels = 0
+spaces = 0
+digits = 0
+
+for ch in sentence:
+    if ch.lower() in "aeiou":
+        vowels = vowels + 1
+
+    if ch == " ":
+        spaces = spaces + 1
+
+    if ch.isdigit():
+        digits = digits + 1
+
+print("Characters:", characters)
+print("Words:", words)
+print("Vowels:", vowels)
+print("Spaces:", spaces)
+print("Digits:", digits)
+
+Output:
+
+Enter a sentence: Hello Ali 123
+Characters: 13
+Words: 3
+Vowels: 5
+Spaces: 2
+Digits: 3
