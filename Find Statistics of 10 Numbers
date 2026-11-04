@@ -1,0 +1,45 @@
+numbers = []
+
+for i in range(10):
+    num = int(input("Enter a number: "))
+    numbers.append(num)
+
+total = sum(numbers)
+average = total / 10
+largest = max(numbers)
+smallest = min(numbers)
+
+even = 0
+odd = 0
+
+for num in numbers:
+    if num % 2 == 0:
+        even = even + 1
+    else:
+        odd = odd + 1
+
+print("Sum:", total)
+print("Average:", average)
+print("Largest number:", largest)
+print("Smallest number:", smallest)
+print("Even numbers:", even)
+print("Odd numbers:", odd)
+
+Output:
+
+Enter a number: 1
+Enter a number: 2
+Enter a number: 3
+Enter a number: 4
+Enter a number: 5
+Enter a number: 6
+Enter a number: 7
+Enter a number: 8
+Enter a number: 9
+Enter a number: 10
+Sum: 55
+Average: 5.5
+Largest number: 10
+Smallest number: 1
+Even numbers: 5
+Odd numbers: 5
