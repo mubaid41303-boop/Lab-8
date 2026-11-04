@@ -1,0 +1,46 @@
+total = 0
+fail = False
+
+for i in range(5):
+    marks = float(input("Enter subject marks: "))
+    total = total + marks
+
+    if marks < 40:
+        fail = True
+
+percentage = total / 500 * 100
+
+if percentage >= 80:
+    grade = "A+"
+elif percentage >= 70:
+    grade = "A"
+elif percentage >= 60:
+    grade = "B"
+elif percentage >= 50:
+    grade = "C"
+elif percentage >= 40:
+    grade = "D"
+else:
+    grade = "F"
+
+if fail:
+    result = "Fail"
+else:
+    result = "Pass"
+
+print("Total Marks:", total)
+print("Percentage:", percentage)
+print("Grade:", grade)
+print("Result:", result)
+
+Output:
+
+Enter subject marks: 80
+Enter subject marks: 75
+Enter subject marks: 85
+Enter subject marks: 90
+Enter subject marks: 70
+Total Marks: 400.0
+Percentage: 80.0
+Grade: A+
+Result: Pass
