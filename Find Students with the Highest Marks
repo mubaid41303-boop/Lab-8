@@ -1,0 +1,22 @@
+marks = {
+    'Ali': 85,
+    'Sara': 95,
+    'Ahmed': 95,
+    'Noor': 78
+}
+
+highest = max(marks.values())
+
+print("Highest Marks:", highest)
+print("Topper Students:")
+
+for name in marks:
+    if marks[name] == highest:
+        print(name, marks[name])
+
+Output:
+
+Highest Marks: 95
+Topper Students:
+Sara 95
+Ahmed 95
