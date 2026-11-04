@@ -1,0 +1,13 @@
+def student_info(name, age, program):
+    print("Student Name:", name)
+    print("Age:", age)
+    print("Program:", program)
+
+
+student_info(name="Ali", age=19, program="Artificial Intelligence")
+
+Output:
+
+Student Name: Ubaid
+Age: 19
+Program: Artificial Intelligence
