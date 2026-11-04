@@ -1,0 +1,13 @@
+def employee_info(**kwargs):
+    for key, value in kwargs.items():
+        print(key, ":", value)
+
+
+employee_info(name="Ahmed", age=25, salary=40000, department="IT")
+
+Output:
+
+name : Ubaid
+age : 25
+salary : 40000
+department : IT
