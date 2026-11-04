@@ -1,0 +1,25 @@
+shopping = []
+
+for i in range(5):
+    item = input("Enter shopping item: ")
+    shopping.append(item)
+
+print("\nShopping List:")
+
+for item in shopping:
+    print(item)
+
+Output:
+
+Enter shopping item: Milk
+Enter shopping item: Bread
+Enter shopping item: Eggs
+Enter shopping item: Rice
+Enter shopping item: Sugar
+
+Shopping List:
+Milk
+Bread
+Eggs
+Rice
+Sugar
