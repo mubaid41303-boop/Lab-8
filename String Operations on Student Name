@@ -1,0 +1,16 @@
+name = input("Enter student name: ")
+
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+print("Number of characters:", len(name))
+print("First character:", name[0])
+print("Last character:", name[-1])
+
+Output:
+
+Enter student name: Ahmed
+Uppercase: AHMED
+Lowercase: ahmed
+Number of characters: 5
+First character: A
+Last character: d
