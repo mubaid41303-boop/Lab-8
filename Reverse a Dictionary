@@ -1,0 +1,12 @@
+data = {'a': 1, 'b': 2, 'c': 3}
+
+new_data = {}
+
+for key in data:
+    new_data[data[key]] = key
+
+print(new_data)
+
+Output:
+
+{1: 'a', 2: 'b', 3: 'c'}
